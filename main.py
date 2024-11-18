@@ -1,13 +1,14 @@
 # Input: Employee's name, number of shifts, number of transactions, and transaction dollar value
 
 # Employee's name
-employee_name = "Jenna Jenkins"
+employee_name = input("Enter Employee Name: ")
 # Number of shifts
-num_shifts = 15
+num_shifts = int(input("Enter number of shifts: "))
 # Number of transactions
-num_transactions = 30
+num_transactions = int(input("Enter number of transactions: "))
 # Dollar value of transactions
-transaction_value = 25000
+transaction_value = float(input("Enter transactions dollar value: "))
+
 
 # Calculate the productivity score
 productivity_score = (transaction_value / num_transactions) / num_shifts
