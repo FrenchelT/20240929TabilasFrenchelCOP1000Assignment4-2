@@ -24,5 +24,6 @@ else:
   bonus = 200.00
 
 # Output: Employee's name and bonus
+print("   ")
 print(f"Employee Name: {employee_name}")
 print(f"Employee Bonus: ${bonus:}")
